@@ -17,7 +17,11 @@
         <p>Hi, I'm Daniel. I'm a visual communication design student and a graphic designer.</p>
         <p>I've been working on various projects and organizations. My expertise includes branding, visual identity, social media marketing, editorial design, page layouts, typography, and more.</p>
     </header>
-  <main>
+    <div>
+        <a href="design-works.html" class="button">View My Works</a>
+    </div>
+    <hr>
+  <main class="main-content">
     <section id="education">
         <div class="section-header">
             <img src="assets/icons/school.svg" alt="Education Icon" class="icon">  
@@ -31,7 +35,7 @@
     <section id="experience">
         <div class="section-header">
             <img src="assets/icons/work_history.svg" alt="Experience Icon" class="icon">
-            <h2>Experience and Achievements</h2>
+            <h2>Experience & Achievements</h2>
         </div>
         <p>A quick rundown of my professional experience and notable achievements:</p>
         <ul>
@@ -97,9 +101,19 @@
                 </div>
             </div>
     </section>
+    <hr>
     <footer>
         <p>&copy; 2026 Daniel Andy Pradana. All rights reserved.</p>
         <p style="font-style: italic; opacity: 45%; font-size: small;">I only spent ~20K rupiahs for this website and domain per year! #saveyourmoneydontspendit</p>
     </footer>
+    <script>
+        // Smooth scroll to top ahaha
+        document.querySelector('a[href="#header"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        // Can't click lol? 
+        document.addEventListener('contextmenu', e => e.preventDefault());
+    </script>
 </body>
 </html>
