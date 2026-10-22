@@ -18,85 +18,103 @@
     <link rel="icon" href="assets/Icon-circle-white-colored.svg" type="image/svg+xml">
 </head>
 <body>
-    <header>
-        <img src="assets/Minimal-colored.svg" class="logo logo-colored" alt="Logo">
-        <img src="assets/Minimal-white.svg" class="logo logo-white" alt="Logo">
-        <h1>Daniel Andy Pradana</h1>
-        <p>Hi, I'm Daniel. I'm a visual communication design student and a graphic designer.</p>
-        <p>I've been working on various projects and organizations. My expertise includes branding, visual identity, social media marketing, editorial design, page layouts, typography, and more.</p>
+    <header id="header">
+        <div class="topbar">
+            <div>
+                <img src="assets/Minimal-colored.svg" class="logo logo-colored" alt="Logo">
+                <img src="assets/Minimal-white.svg" class="logo logo-white" alt="Logo">
+            </div>
+            <a href="design-works.html" class="button">View My Works</a>
+        </div>
+        <div class="hero grid">
+            <h1>Daniel Andy Pradana</h1>
+            <div class="hero-text">
+                <p>Hi, I'm Daniel. I'm a visual communication design student and a graphic designer.</p>
+                <p>I've been working on various projects and organizations. My expertise includes branding, visual identity, social media marketing, editorial design, page layouts, typography, and more.</p>
+            </div>
+        </div>
     </header>
 
-    <div>
-        <a href="design-works.html" class="button">View My Works</a>
-    </div>
-    <hr>
-    
     <main class="main-content">
-    <section id="education">
+    <section id="education" class="section grid">
+        <span class="section-index">01</span>
         <div class="section-header">
-            <img src="assets/icons/school.svg" alt="Education Icon" class="icon">  
+            <img src="assets/icons/school.svg" alt="Education Icon" class="icon">
             <h2>Education</h2>
         </div>
-        <ul>
-            <li>Pembangunan Jaya University, Visual Communication Design, 2023 – current</li>
-            <li>Bina Informatika Vocational School, Multimedia, 2020-2023</li>
-        </ul>
+        <div class="section-body">
+            <ul>
+                <li>Pembangunan Jaya University, Visual Communication Design, 2023 – current</li>
+                <li>Bina Informatika Vocational School, Multimedia, 2020-2023</li>
+            </ul>
+        </div>
     </section>
-    <section id="experience">
+    <section id="experience" class="section grid">
+        <span class="section-index">02</span>
         <div class="section-header">
             <img src="assets/icons/work_history.svg" alt="Experience Icon" class="icon">
             <h2>Experience & Achievements</h2>
         </div>
-        <p>A quick rundown of my professional experience and notable achievements:</p>
-        <ul>
-            <li>Contributing to university's 2026 graduation materials</li>
-            <li>Developed Pembangunan Jayas University's Graphic Standard Manual, which is now used as a reference in marketing materials.</li>
-            <li>1st place, B&H, packaging design competition by State Polytechnic of Jakarta, InPack 2025</li>
-            <li>Recognized by World Packaging Organization, in WorldStar Student Awards 2025</li>
-            <li>Social media marketing at Meta Visual Animation, one-stop animation studio, in 2022-2023</li>
-            <li>Best student in 1st Multimedia, Bina Informatika Vocational School</li>
-        </ul>
+        <div class="section-body">
+            <p>A quick rundown of my professional experience and notable achievements:</p>
+            <ul>
+                <li>Contributing to university's 2026 graduation materials</li>
+                <li>Developed Pembangunan Jayas University's Graphic Standard Manual, which is now used as a reference in marketing materials.</li>
+                <li>1st place, B&H, packaging design competition by State Polytechnic of Jakarta, InPack 2025</li>
+                <li>Recognized by World Packaging Organization, in WorldStar Student Awards 2025</li>
+                <li>Social media marketing at Meta Visual Animation, one-stop animation studio, in 2022-2023</li>
+                <li>Best student in 1st Multimedia, Bina Informatika Vocational School</li>
+            </ul>
+        </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="section grid">
+        <span class="section-index">03</span>
         <div class="section-header">
             <img src="assets/icons/laptop_mac.svg" alt="Skills Icon" class="icon">
             <h2>Skills</h2>
         </div>
-        <p>My skills and expertise in design and related areas:</p>
-        <ul>
-            <li>Branding and visual identity</li>
-            <li>Social media marketing</li>
-            <li>Editorial design and page layouts</li>
-            <li>Typography and typeface pairing</li>
-            <li>Adobe graphic design suite (Photoshop, Illustrator, InDesign)</li>
-            <li>Figma, Canva, alongside PenPot, and Lunacy</li>
-            <li>Baseline video editing with DaVinci Resolve, Premiere Pro</li>
-            <li>A little motion graphics in After Effects and Cavalry</li>
-            <li>Basic Canon camera and lighting operation</li>
-        </ul>
+        <div class="section-body">
+            <p>My skills and expertise in design and related areas:</p>
+            <ul>
+                <li>Branding and visual identity</li>
+                <li>Social media marketing</li>
+                <li>Editorial design and page layouts</li>
+                <li>Typography and typeface pairing</li>
+                <li>Adobe graphic design suite (Photoshop, Illustrator, InDesign)</li>
+                <li>Figma, Canva, alongside PenPot, and Lunacy</li>
+                <li>Baseline video editing with DaVinci Resolve, Premiere Pro</li>
+                <li>A little motion graphics in After Effects and Cavalry</li>
+                <li>Basic Canon camera and lighting operation</li>
+            </ul>
+        </div>
     </section>
-    <section id="other-activities">
+    <section id="other-activities" class="section grid">
+        <span class="section-index">04</span>
         <div class="section-header">
             <img src="assets/icons/view_day.svg" alt="Other Activities Icon" class="icon">
             <h2>Other Activities</h2>
         </div>
-        <p>Other activities outside of college</p>
-        <ul>
-            <li>Developing concept for future digital comic ventures (coming soon!)</li>
-            <li>Developing a co-op freelance landing page concept, on <a href="https://github.com/danielandy/deiiart" target="_blank">GitHub</a></li>
-            <li>Photography project with fashion e-commerce brand, at <a href="https://www.linkedin.com/company/agencycaesar" target="_blank">Caesar</a>.</li>
-            <li>Design and publication committee member (also later, secretary) at college's Japanese club <a href="https://instagram.com/ukj.upj" target="_blank">@ukj.upj</a></li>
-            <li>Multimedia assistant in local church, GKI Villa Melati Mas, since 2022</li>
-            <li>Visual identity system for freelancer <a href="https://deiiart.cardd.co" target="_blank">Deiiart</a>, and still in use right now!</li>
-        </ul>
+        <div class="section-body">
+            <p>Other activities outside of college</p>
+            <ul>
+                <li>Developing concept for future digital comic ventures (coming soon!)</li>
+                <li>Developing a co-op freelance landing page concept, on <a href="https://github.com/danielandy/deiiart" target="_blank">GitHub</a></li>
+                <li>Photography project with fashion e-commerce brand, at <a href="https://www.linkedin.com/company/agencycaesar" target="_blank">Caesar</a>.</li>
+                <li>Design and publication committee member (also later, secretary) at college's Japanese club <a href="https://instagram.com/ukj.upj" target="_blank">@ukj.upj</a></li>
+                <li>Multimedia assistant in local church, GKI Villa Melati Mas, since 2022</li>
+                <li>Visual identity system for freelancer <a href="https://deiiart.cardd.co" target="_blank">Deiiart</a>, and still in use right now!</li>
+            </ul>
+        </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="section grid">
+        <span class="section-index">05</span>
         <div class="section-header">
             <img src="assets/icons/contact_page.svg" alt="Contact Icon" class="icon">
             <h2>Contact Me</h2>
         </div>
-        <p>Feel free to reach out to me via email (danielandy950 [at] gmail.com) or connect with me on LinkedIn:</p>
-        <div class="contact-links">
+        <div class="section-body">
+            <p>Feel free to reach out to me via email (danielandy950 [at] gmail.com) or connect with me on LinkedIn:</p>
+            <div class="contact-links">
                 <div id="linkedin">
                     <p><a href="https://www.linkedin.com/in/danielanpra" target="_blank">LinkedIn</a></p>
                 </div>
@@ -107,10 +125,10 @@
                     <p><a href="https://www.behance.net/danielpradana" target="_blank">Behance</a></p>
                 </div>
             </div>
+        </div>
     </section>
-    <hr>
     </main>
-    <footer>
+    <footer class="grid">
         <p>&copy; 2026 Daniel Andy Pradana. All rights reserved.</p>
         <p style="font-style: italic; opacity: 45%; font-size: small;">I only spent ~20K rupiahs for this website and domain per year! #saveyourmoneydontspendit</p>
     </footer>
